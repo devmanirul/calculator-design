@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  body{
+      background-color: bisque;
+  
+  }
+  main {
+    margin: 20px auto;
+    width: 300px;
+    border: 2px solid rebeccapurple;
+    background-color: #4D4D4D;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 0 5px;
+  }
+  .top .cisco {
+    color: white;
+  }
+.top .sunprotect {
+    width: 50%;
+    background-color: #4F2623;
+    border-radius: 4px;
+}
+  input{
+      width: 100%;
+      height: 70px;
+      padding: 10px;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: right;
+      border-radius: 10px;
+      background-color: #D1E6A8;
+      margin-bottom: 15px;
+  }
+  button:hover {
+    scale: .9;
+    transition-duration: 300ms;
+    transform: 300ms;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+    width: 100%;
+  }
+  button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 60px;
+    margin: 6px;
+    text-align: center;  
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #808080;
+    color: #FFFFFF;
+  }
+  .operator {
+      background-color: #63CACA;
+  }
+  .redbtn{
+      background-color: #EA5C5F;
+  }
+  .assign{
+      background-color: #F3B15E;
+  }
